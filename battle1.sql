@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `pwodwi` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb3;
 
 ALter table pwodwi Rename column non to name;
-ALter table pwodwi pwodwi column pri to price;
+ALter table pwodwi rename column pri to price;
 ALter table pwodwi Rename column deskripsyon to description ;
 
 COMMIT;
